@@ -1,0 +1,107 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+h1,
+h2,
+li {
+  text-align: center;
+  color: #ffeedb;
+  padding: 1rem;
+  font-size: 1.75em;
+}
+
+.App {
+  background-color: #3b1802b9;
+  width: 100%;
+}
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0%;
+  width: 100%;
+  background-color: #472c1b;
+  height: 8vh;
+  z-index: 1;
+}
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+  padding-top: 8vh;
+  width: 100%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+h2 {
+  text-align: center;
+}
+.side-menu {
+  position: relative;
+  overflow-y: auto;
+  left: 0%;
+  width: 30%;
+  background-color: #472c1bcc;
+}
+.side-menu::-webkit-scrollbar {
+  display: none;
+}
+.category {
+  margin: 1.5rem;
+  padding: 0.75rem 1rem;
+  background-color: #004643;
+  border-radius: 20px;
+  color: #dbffe7;
+  border-bottom: 1px solid rgb(82, 45, 141);
+}
+.category:hover {
+  cursor: pointer;
+  color: #004643;
+  background-color: #ffeedb80;
+}
+.jokes {
+  width: 70%;
+  background-color: #a57a49;
+  overflow-y: auto;
+}
+.joke {
+  background-color: #b6702193;
+  padding: 1rem;
+  margin: 1rem;
+  border-bottom: 1px solid black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+}
+@media screen and (max-width: 600px) {
+  h1,
+  h2,
+  li,
+  a {
+    color: #ffeedb;
+    padding: 0.25rem;
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .category {
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.25rem;
+  }
+  .joke {
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+  }
+
+  h1,
+  h2,
+  a {
+    color: #ffeedb;
+    padding: 0rem;
+  }
+}
