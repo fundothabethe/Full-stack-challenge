@@ -1,0 +1,28 @@
+This is a Full stack application challenge
+
+check it out on https://fullstackappchallenge.herokuapp.com/
+
+To run the code in CodeSandBox follow :  
+
+download these file to your local machine by running ""
+
+This application features the following
+
+For back-end
+
+nodejs
+apollo-server-express
+graphQL
+express
+npm
+apollo-datasource-rest
+qraphQL-request
+
+For front end
+
+React
+graphql-tag
+react-redux
+redux
+apollo-link-http
+apollo-cache-inmemory
